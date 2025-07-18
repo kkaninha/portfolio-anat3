@@ -1,0 +1,47 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+nav{
+    background-color: #2b2b2b;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    padding: 2vh;
+    list-style: none;
+    gap: 4vw; 
+}
+a{
+    color:#F1E9E9;
+    text-decoration: none; 
+    margin:0 1rem;
+    font: 2.5vw;
+}
+.texto-header{
+    height:20vh;
+    background-image: url(../images/MeuFundo-AnaT3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times;
+    border-bottom: 4px solid #2b2b2b;
+}
+section{
+    height: 100vh;
+    padding: 95px;
+    width:56%; 
+}
+#sobre-mim img{
+    max-width: 30vw;
+    border-radius: 100%;
+}
+
+
+
+
